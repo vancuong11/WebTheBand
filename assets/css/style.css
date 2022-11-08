@@ -82,6 +82,10 @@ html {
     margin-top: 16px !important;
 }
 
+.mt-32 {
+    margin-top: 32px !important;
+}
+
 /*  */
 
 /* Rules
@@ -110,6 +114,7 @@ html {
     right: 0;
     /* Độ cao thấp */
     z-index: 1; 
+    
 }
 
 #nav {
@@ -171,17 +176,35 @@ html {
     font-size: 14px;
 }
 
+#header .mobile-menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+#header .mobile-menu-btn,
 #header .search-btn {
     float: right;
     padding: 0 21px;
     
 }
 
+
 #header .search-btn:hover {
     background-color: #f44336;
     cursor: pointer;
 }
 
+#header .mobile-menu-btn:hover {
+    background-color: #ccc;
+}
+
+#header .mobile-menu-btn:hover .menu-icon {
+    color: #000;
+}
+
+#header .menu-icon,
 #header .search-icon {
     color: #fff;
     font-size: 14px;
@@ -265,7 +288,7 @@ html {
 }
 
 #content .members-list {
-    margin-top: 47px;
+    margin-top: 32px;
 }
 
 
@@ -318,7 +341,7 @@ html {
 
 /* Places */
 #content .places-list{
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 
@@ -478,6 +501,15 @@ html {
 .contact-info {
     font-size: 18px;
     line-height: 1.5;
+}
+
+.contact-info a {
+    color: #101aef;
+    opacity: 0.8;
+}
+
+.contact-info a:hover {
+    opacity: 1;
 }
 
 .contact-form {

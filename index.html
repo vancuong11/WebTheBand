@@ -8,6 +8,7 @@
 
     <!-- Links asset -->
         <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/responsive.css">
         <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
         <link rel="shortcut icon" href="./assets/image/icon/icon.png" type="image/x-icon">
     <!--  -->
@@ -23,7 +24,7 @@
                             <li><a href="#tour">Tour</a></li>
                             <li><a href="#contact">Contact</a></li>
                             <li>
-                                <a href="">
+                                <a href="#">
                                     More
                                     <i class="nav-arrow-down ti-angle-down"></i>
                                 </a>
@@ -38,6 +39,10 @@
                         <!-- Search -->
                         <div class="search-btn">
                             <i class="search-icon ti-search"></i>
+                        </div>
+
+                        <div class="mobile-menu-btn js-mobile-icon">
+                            <i class="menu-icon ti-menu"></i>
                         </div>
                         <!-- Search -->
 
@@ -63,15 +68,15 @@
                             We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         </p>
                         <div class="row members-list">
-                            <div class="col col-3 text-center">
+                            <div class="col col-3 s-col-full mt-32 text-center">
                                 <p class="member-name">Name</p>
                                 <img src="/assets/image/member/bandmember.jpg" alt="" class="member-img">
                             </div>
-                            <div class="col col-3 text-center">
+                            <div class="col col-3 s-col-full mt-32 text-center">
                                 <p class="member-name">Name</p>
                                 <img src="/assets/image/member/bandmember.jpg" alt="" class="member-img">
                             </div>
-                            <div class="col col-3 text-center">
+                            <div class="col col-3 s-col-full mt-32 text-center">
                                 <p class="member-name">Name</p>
                                 <img src="/assets/image/member/bandmember.jpg" alt="" class="member-img">
                             </div>
@@ -96,33 +101,33 @@
 
                             <!-- Places -->
                             <div class="row places-list">
-                                <div class="col col-3">
+                                <div class="col col-3 s-col-full mt-16">
                                     <img src="./assets/image/places/place1.jpg" alt="" class="place-img">
                                     <div class="place-body">
                                         <h3 class="place-heading">New York</h3>
                                         <p class="place-time">Fri 27 Nov 2016</p>
                                         <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                        <button class="btn js-buy-ticket">Buy Tickets</button>
+                                        <button class="btn s-full-width js-buy-ticket">Buy Tickets</button>
                                     </div>
                                 </div>
 
-                                <div class="col col-3">
+                                <div class="col col-3 s-col-full mt-16">
                                     <img src="./assets/image/places/place2.jpg" alt="" class="place-img">
                                     <div class="place-body">
                                         <h3 class="place-heading">Paris</h3>
                                         <p class="place-time">Sat 28 Nov 2016</p>
                                         <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                        <button class="btn js-buy-ticket">Buy Tickets</button>
+                                        <button class="btn s-full-width js-buy-ticket">Buy Tickets</button>
                                     </div>
                                 </div>
 
-                                <div class="col col-3">
+                                <div class="col col-3 s-col-full mt-16">
                                     <img src="./assets/image/places/place3.jpg" alt="" class="place-img">
                                     <div class="place-body">
                                         <h3 class="place-heading">San Francisco</h3>
                                         <p class="place-time">Sun 29 Nov 2016</p>
                                         <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                        <button class="btn js-buy-ticket">Buy Tickets</button>
+                                        <button class="btn s-full-width js-buy-ticket">Buy Tickets</button>
                                     </div>
                                 </div>
                                 
@@ -137,18 +142,18 @@
                         <p class="section-sub-heading">Fan? Drop a note!</p>
 
                         <div class="row contact-content">
-                            <div class="col col-2 contact-info">
+                            <div class="col col-2 s-col-full contact-info">
                                 <p><i class="ti-location-pin"></i>Chicago, US</p>
-                                <p><i class="ti-mobile"></i>Phone: +00 151515</p>
-                                <p><i class="ti-email"></i>Email: mail@mail.com</p>
+                                <p><i class="ti-mobile"></i>Phone: <a href="tel:+00 151515">+00 151515</a></p>
+                                <p><i class="ti-email"></i>Email: <a href="mailTo:mail@mail.com">mail@mail.com</a></p>
                             </div>
-                            <div class="col col-2 contact-form">
+                            <div class="col col-2 s-col-full contact-form">
                                 <form action="">
                                     <div class="row">
-                                        <div class="col col-2">
+                                        <div class="col col-2 s-col-full">
                                             <input required type="text" name="" id="name" placeholder="Name" class="form-control">
                                         </div>
-                                        <div class="col col-2">
+                                        <div class="col col-2 s-col-full s-mt-8">
                                             <input required type="email" name="" id="email" placeholder="Email" class="form-control">
                                         </div>
                                     </div>
@@ -157,7 +162,7 @@
                                             <input required type="text" name="" id="Message" placeholder="Message" class="form-control">
                                         </div>
                                     </div>
-                                    <input class="mt-16 btn pull-right" type="submit" value="SEND">
+                                    <input class="mt-16 btn pull-right s-full-width" type="submit" value="SEND">
                                 </form>
                             </div>
                         </div>
@@ -251,6 +256,40 @@
         modalContainer.addEventListener('click', function(e) {
             e.stopPropagation()
         })
+    </script>
+
+    <!-- JS Mobile -->
+    <script>
+        // Đóng mở menu
+        const header = document.getElementById('header');
+        const menuIcon = document.querySelector('.js-mobile-icon')
+        const headerHeight = header.clientHeight
+        function handleMenuIconMobile() {
+            let isClose = header.clientHeight === headerHeight
+            if (isClose) {
+                header.style.height = 'auto'
+            } else {
+                header.style.height = null
+                
+            }
+        }
+
+        menuIcon.addEventListener('click', handleMenuIconMobile)
+        
+        // Tự đông đóng khi chọn menu
+        const menuItems = document.querySelectorAll('#nav li a[href*="#"]')
+        
+        for(const key of menuItems) {
+           
+            key.addEventListener('click', function() {
+                const isParentMenu = key.nextElementSibling && key.nextElementSibling.classList.contains('sub-nav')
+                if (!isParentMenu) {
+                    header.style.height = null                   
+                }
+
+            })
+        }
+    
     </script>
     
 </body>
